@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Style/global.css">
+    <script src="./Scripts/main.js"></script>
+    <link rel="icon" href="./Images/icone.png">
+    <title>Delivery de Comida e Mercado - IFood</title>
+</head>
+<body>
+
+    <header>
+        <div style="display: inline;">
+            <img id="logo" src="./Images/ifood-logo.png"></img>
+        </div>
+
+        <div id="menu-mobile" onclick="toggleMenu()">
+            <div id="linha1" class="linha"></div>
+            <div id="linha2" class="linha"></div>
+            <div id="linha3" class="linha"></div>
+        </div>        
+            <ul id="menu">
+                <li>Entregador</li>
+                <li>Restaurante e Mercado</li>
+                <li>Carreiras</li>
+                <li>Ifood Card</li>  
+                <li id="criar-conta">criar conta</li>
+                <li><button class="btn">Entrar</button> </li> 
+            </ul>  
+    </header>
+        <div id="banner-inicial">
+            <div style="margin-bottom: 5%;">
+                <p class="titulo">Tudo pra facilitar seu dia a dia</p>  
+                <p class="subtitulo">O que você precisa está aqui. Peça e receba onde estiver.</p> 
+            </div>
+             <input type="text" class="input" placeholder="Endereço de entrega e número"> 
+             <button class="btn">Buscar</button>
+        </div>
+        <div class="content-cards">
+            <div class="card" id="restaurante-card">
+                <h1 class="titulo-branco">Restaurante</h1>
+                <button class="btn-card btn" id="btn-restaurante">Ver opções</button>
+            </div>
+
+            <div class="card" id="mercado-card">
+                <h1 class="titulo-branco">Mercado</h1>
+                <button class="btn-card btn" id="btn-mercado">Buscar lojas</button>
+            </div>
+        </div>
+</body>
+</html>
