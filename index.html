@@ -26,8 +26,11 @@
                 <li>Restaurante e Mercado</li>
                 <li>Carreiras</li>
                 <li>Ifood Card</li>  
-                <li id="criar-conta">criar conta</li>
-                <li><button class="btn">Entrar</button> </li> 
+                <div class="menu-direita">
+                    <li id="criar-conta">criar conta</li>
+                    <li><button class="btn">Entrar</button> </li> 
+                </div>
+            
             </ul>  
     </header>
         <div id="banner-inicial">
@@ -39,7 +42,7 @@
              <button class="btn">Buscar</button>
         </div>
         <div class="content-cards">
-            <div class="card" id="restaurante-card">
+            <div class="card" id="restaurante-card" onmouseover="inCard('restaurante')" onmouseleave="outCard('restaurante')">
                 <h1 class="titulo-branco">Restaurante</h1>
                 <button class="btn-card btn" id="btn-restaurante">Ver opções</button>
             </div>
@@ -49,5 +52,34 @@
                 <button class="btn-card btn" id="btn-mercado">Buscar lojas</button>
             </div>
         </div>
+        <div class="bg-sec">        
+        <div class="content-cards" id="mini-geral">
+            <div class="mini-card" id="bebidas-card">
+                <div id="bebida-imagem" class="mini-imagem">
+                    <p style="padding-top: 4rem; font-weight: 600;">Bebidas</p>
+                </div>
+                
+            </div>
+            <div class="mini-card" id="farmacia-card">
+                <div id="farmacia-imagem" class="mini-imagem">
+                    <p style="padding-top: 4.8rem; font-weight: 600;">Farmácia</p>
+                </div>
+            </div>
+            <div class="mini-card" id="express-card">
+                <div id="express-imagem" class="mini-imagem">
+                    <p style="padding-top: 5.4rem; font-weight: 600;">Express</p>
+                </div>
+                
+            </div>
+            <div class="mini-card" id="pet-card">
+                <div id="pet-imagem" class="mini-imagem">
+                    <p style="padding-top: 3.4rem; font-weight: 600;">Pet shop</p>
+                </div>
+            </div>
+        </div>
+        <!-- <div style="height: 20rem; margin-top: 5rem; background-color: white;">
+            <h2>Os melhores restaurantes</h2>
+        </div> -->
+    </div>
 </body>
 </html>
