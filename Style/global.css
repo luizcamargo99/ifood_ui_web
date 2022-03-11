@@ -311,6 +311,9 @@ ul {
     background-repeat: no-repeat;
     background-position: center;
 }
+#banner-delivery, #banner-store {
+    width: 17rem;
+}
 #banner-store {
     cursor: auto;
     background-image: url(../Images/store.svg);
