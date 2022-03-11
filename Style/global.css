@@ -255,6 +255,7 @@ ul {
 }
 
 .secao {
+    align-items: center;
     display: flex;
     flex-direction: column;
     margin: 3.5rem 2.5rem;
@@ -338,8 +339,9 @@ ul {
 .banners {
     display: flex;
     margin-top: 2rem;
-    flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
+    flex-direction: row;
 }
 
 .banner {
@@ -367,6 +369,13 @@ ul {
 #banner-delivery {
     cursor: auto;
     background-image: url(../Images/delivery-man.svg);
+}
+
+.blob {
+    background-image: url(../Images/blob.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 #banner-store {
@@ -451,11 +460,11 @@ ul {
 
     .btn {
         margin-top: 1rem;
-        width: 95%;
+        width: 80%;
     }
 
     .input {
-        width: 90%;
+        width: 75%;
     }
 
     .card {
@@ -480,10 +489,6 @@ ul {
        margin: 0;       
     }
 
-    .banners {
-        flex-wrap: wrap;
-    }
-
     .banner {
         margin: 0.5rem;
         height: 9rem;
@@ -491,5 +496,14 @@ ul {
 
     .estabelecimentos-slider {
         flex-wrap: wrap;
+    }
+
+    .banners {
+       flex-wrap: wrap;
+    }
+
+    .infos-comerciais {
+        text-align: center;
+        margin: 2rem;
     }
 }
