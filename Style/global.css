@@ -327,6 +327,10 @@ ul {
 #fome-que {
     margin: 0px 10rem 0 10rem;
 }
+#banner-beneficios{
+    width: 100%;
+    background-image: url(../Images/ifood-benefits-desktop.webp);
+}
 ::selection{
     background-color: var(--primary);
     color: #fff;
