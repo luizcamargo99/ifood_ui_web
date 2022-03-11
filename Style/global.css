@@ -193,7 +193,7 @@ ul {
 .linha-separadora {
     height: 0.1rem;
     background: #ededed;
-    margin: 0 2rem 0 2rem;
+    margin: 3rem 2rem 3rem 2rem;
 }
 #mercado-card.animation-hover {
     opacity: .5;
@@ -315,6 +315,14 @@ ul {
     cursor: auto;
     background-image: url(../Images/store.svg);
 }
+#banner-fome {
+    width: 60rem;
+    height: 20rem;
+    background-image: url(../Images/food-lover-banner.webp);
+}
+#fome-que {
+    margin: 0px 10rem 0 10rem;
+}
 ::selection{
     background-color: var(--primary);
     color: #fff;
@@ -417,5 +425,8 @@ ul {
     .infos-comerciais {
         text-align: center;
         margin: 2rem;
+   }
+   #fome-que {
+       margin: 0;
    }
 }
