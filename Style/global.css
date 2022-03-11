@@ -20,6 +20,7 @@ header {
     height: 8.5rem;
     position: fixed;
     display: inline-flex;
+    align-items: center;
     width: 100%;
     background: var(--background-color);
 }
@@ -248,9 +249,9 @@ ul {
     #menu-mobile {      
         text-align: -webkit-right; 
         width: 100%; 
-        margin: 7% 8%;
         display: inline;
         cursor: pointer;
+        margin-right: 4%;
     }
 
     #logo {
