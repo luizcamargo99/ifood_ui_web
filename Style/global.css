@@ -364,7 +364,15 @@ ul {
     background-image: url(../Images/banner3.webp);
 }
 
+#banner-delivery {
+    cursor: auto;
+    background-image: url(../Images/delivery-man.svg);
+}
 
+#banner-store {
+    cursor: auto;
+    background-image: url(../Images/store.svg);
+}
 
 ::selection{
     background-color: var(--primary);
