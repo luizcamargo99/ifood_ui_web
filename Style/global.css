@@ -90,6 +90,7 @@ ul {
 }
 
 #banner-inicial {
+    background-position: center;
     padding-top: 8rem;
     text-align: center;
 }
@@ -173,7 +174,6 @@ ul {
 #mini-geral {
     background-color: white;
     display: flex;
-    width: 100%;
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 4rem;
@@ -228,6 +228,12 @@ ul {
     background: url(../Images/petshop.webp);
 }
 
+.linha-separadora {
+    height: 0.1rem;
+    background: #ededed;
+    margin: 0 2rem 0 2rem;
+}
+
 #mercado-card.animation-hover {
     opacity: .5; 
     position: relative;
@@ -238,6 +244,65 @@ ul {
     opacity: .5; 
     position: relative;
 }
+
+.estabelecimentos-slider {
+    display: inline-flex;
+    align-content: center;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.secao {
+    display: flex;
+    flex-direction: column;
+    margin: 3.5rem 2.5rem;
+}
+
+.titulo-secao {
+    color: #2F2F2F;
+    margin-bottom: 2rem;
+    font-weight: 500;
+}
+
+.estabelecimento-top-card {
+    width: 15rem;
+    height: 8rem;
+    border: 0.1rem solid #d6d6d6;
+    border-radius: 0.3rem;
+    margin: 1rem;
+}
+
+.banners {
+    display: flex;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.banner {
+    width: 24rem;
+    height: 13rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    margin: 1rem;
+}
+
+#banner1 {
+    background-image: url(../Images/banner1.webp);
+}
+
+#banner2 {
+    background-image: url(../Images/banner2.webp);
+}
+
+#banner3 {
+    background-image: url(../Images/banner3.webp);
+}
+
 
 
 ::selection{
@@ -344,5 +409,18 @@ ul {
        float: none;
        display: block;
        margin: 0;       
+    }
+
+    .banners {
+        flex-wrap: wrap;
+    }
+
+    .banner {
+        margin: 0.5rem;
+        height: 9rem;
+    }
+
+    .estabelecimentos-slider {
+        flex-wrap: wrap;
     }
 }
