@@ -1,6 +1,7 @@
 function toggleMenu() {
     tratarMenu();
     tratarLinhas();
+    removerScrollBody();
 }
 
 function tratarMenu() {
@@ -13,6 +14,11 @@ function tratarLinhas() {
     for (let index = 0; index < linhas.length; index++) {
         linhas[index].classList.toggle('active');
     }
+}
+
+function removerScrollBody() {
+    const body = document.getElementsByTagName('body');
+    body[0].classList.toggle('remover-scroll');
 }
 
 // function inCard (tipoCard){

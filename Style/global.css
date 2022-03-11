@@ -319,6 +319,7 @@ ul {
     background-image: url(../Images/store.svg);
 }
 #banner-fome {
+    cursor: auto;
     width: 60rem;
     height: 20rem;
     background-image: url(../Images/food-lover-banner.webp);
@@ -360,6 +361,9 @@ ul {
         visibility: visible;
         overflow-y: auto;
         width: 100% ;
+   }
+   body.remover-scroll{
+        overflow-y: hidden;
    }
     #menu li {
         display: block;
