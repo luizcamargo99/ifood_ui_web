@@ -21,6 +21,17 @@ header {
     width: 100%;
     background: var(--background-color);
 }
+a{
+    text-decoration: none;
+    color: #CD00BB;
+}
+a:hover {
+    background: #CD00BB;
+    color: white;
+}
+a:hover::after{
+    content: ' <3';
+}
 .bg-sec {
     background: var(--background-secundary);
 }
