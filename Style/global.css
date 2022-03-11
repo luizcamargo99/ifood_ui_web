@@ -267,11 +267,72 @@ ul {
 }
 
 .estabelecimento-top-card {
-    width: 15rem;
+    width: 16rem;
     height: 8rem;
     border: 0.1rem solid #d6d6d6;
     border-radius: 0.3rem;
     margin: 1rem;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.logo-estabelecimento {
+    height: 3.5rem;
+    width: 3.5rem;
+    background: red;
+    background-size: contain;
+    border-radius: 3rem;
+    margin-left: 1.4rem;
+}
+
+#logo-mcdonalds {
+    background-image: url(../Images/mc-donalds.jpg);
+}
+
+#logo-chinainbox {
+    background-image: url(../Images/china.webp);
+}
+
+#logo-habibs {
+    background-image: url(../Images/habibs.webp);
+}
+
+#logo-outback {
+    background-image: url(../Images/outback.webp);
+}
+
+#logo-outback {
+    background-image: url(../Images/outback.webp);
+}
+
+#logo-dia {
+    background-image: url(../Images/dia.webp);
+}
+
+#logo-big {
+    background-image: url(../Images/big.webp);
+}
+
+
+#logo-eataly {
+    background-image: url(../Images/eataly.webp);
+}
+
+#logo-extra {
+    background-image: url(../Images/extra.png);
+}
+
+.infos-estabelecimento {
+    margin: 1rem;
+}
+
+.nome-estabelecimento {
+    font-size: .9rem;
+}
+
+.categoria-estabelecimento {
+    font-size: .7rem;
 }
 
 .banners {
