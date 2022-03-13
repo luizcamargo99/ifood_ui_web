@@ -149,9 +149,13 @@ ul {
     display: flex;
     justify-content: center;
     margin-bottom: 3rem;
+    transition: all .1s ease-in-out;
+
 }
 .mini-card:hover {
-    animation: zoom-in .5s ease forwards;
+    transform: scale(1.1);
+    position: static;
+    z-index: auto;
 }
 .mini-imagem {
     background-size: contain !important;
@@ -348,14 +352,6 @@ ul {
     width: 100%;
     background-image: url(../Images/ifood-benefits-desktop.webp);
 }
-@keyframes zoom-in {
-    0% {
-      transform: scale(1, 1);
-    }
-    100% {
-      transform: scale(1.1, 1.1);
-    }
-  }
 ::selection{
     background-color: var(--primary);
     color: #fff;
