@@ -20,6 +20,7 @@ header {
     align-items: center;
     width: 100%;
     background: var(--background-color);
+    z-index: 1;
 }
 a{
     text-decoration: none;
@@ -127,6 +128,8 @@ ul {
 .content-cards{
     margin-top: 2rem;
     text-align: center;
+    position: relative;
+    z-index: 0;
 }
 .card, .mini-card {
     background-position: bottom right;
@@ -155,7 +158,7 @@ ul {
 .mini-card:hover {
     transform: scale(1.1);
     position: static;
-    z-index: auto;
+    z-index: -1;
 }
 .mini-imagem {
     background-size: contain !important;
