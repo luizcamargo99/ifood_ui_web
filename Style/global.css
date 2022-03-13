@@ -150,6 +150,9 @@ ul {
     justify-content: center;
     margin-bottom: 3rem;
 }
+.mini-card:hover {
+    animation: zoom-in .5s ease forwards;
+}
 .mini-imagem {
     background-size: contain !important;
     background-repeat: no-repeat !important;
@@ -235,13 +238,16 @@ ul {
 }
 .estabelecimento-top-card {
     width: 16rem;
-    height: 8rem;
+    height: 9rem;
     border: 0.1rem solid #d6d6d6;
     border-radius: 0.3rem;
     margin: 1rem;
     display: flex;
     align-items: center;
     cursor: pointer;
+}
+.estabelecimento-top-card:hover{
+    border-color: rgb(71, 71, 71);
 }
 .logo-estabelecimento {
     height: 3.5rem;
@@ -342,6 +348,14 @@ ul {
     width: 100%;
     background-image: url(../Images/ifood-benefits-desktop.webp);
 }
+@keyframes zoom-in {
+    0% {
+      transform: scale(1, 1);
+    }
+    100% {
+      transform: scale(1.1, 1.1);
+    }
+  }
 ::selection{
     background-color: var(--primary);
     color: #fff;
