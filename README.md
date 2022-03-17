@@ -9,5 +9,4 @@ Link to access the project: [Ifood Ui Web](https://luizcamargo99.github.io/ifood
 
 Thanks for your attention, see you later!👍
 
-![giphy](https://user-images.githubusercontent.com/59785233/158846989-c4307286-a8e8-4983-a487-4f47d464ef9c.gif)
-
+![0_kIrASm_jWM13i1tT](https://user-images.githubusercontent.com/59785233/158848140-54053c36-b11c-4afd-b96b-fe76f663ebb7.gif)
