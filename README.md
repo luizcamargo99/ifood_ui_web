@@ -1,9 +1,11 @@
 <div align="center">
   <img src="https://user-images.githubusercontent.com/59785233/158874613-10a56815-ce6b-4dbc-b128-74afe1bf86b9.png" alt="Logo Ifood" style="width: 10rem"  />
   <h1> Ifood Web Home Screen Interface Clone (Reponsive) </h1>
+<a href="https://luizcamargo.dev"><img src="https://img.shields.io/badge/Get%20to%20know%20me%20better-My%20Website-purple" alt="my website"/></a>
 </div>
 
 
+  
 
 ## 🚀 About this project
 
